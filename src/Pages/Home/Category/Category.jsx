@@ -17,13 +17,15 @@ const Category = () => {
             <Swiper
                 slidesPerView={4}
                 spaceBetween={30}
-                centeredSlides={true}
+                //centeredSlides={true}
                 pagination={{
                     clickable: true,
                 }}
                 modules={[FreeMode, Pagination]}
                 className="mySwiper mb-24"
             >
+
+
                 <SwiperSlide>
                     <img src={slide1} alt="" />
                     <h3 className="text-4xl uppercase text-center -mt-16 text-white">Salads</h3>
