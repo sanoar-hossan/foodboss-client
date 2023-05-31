@@ -5,6 +5,7 @@ import {
 import Main from "./Main/Main";
 
 import HomeContainer from "../Pages/Home/HomeContainer/HomeContainer";
+import Menu from "../Pages/Menu/Menu";
 
 
 
@@ -15,7 +16,12 @@ export const router = createBrowserRouter([
       children: [
         {
             path: '/',
-            element: <HomeContainer></HomeContainer>
+            element: <HomeContainer></HomeContainer>,
+
+        },
+        {
+          path: 'menu',
+          element: <Menu></Menu>,
         }
       ]
     },
